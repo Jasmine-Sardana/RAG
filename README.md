@@ -10,13 +10,13 @@ It allows users to query custom documents using semantic search and LLM-based co
 The pipeline consists of two main components:
 
 - **`ingest.py`** — Loads, preprocesses, and embeds documents, then stores the embeddings in **Qdrant**.  
-- **`app.py`** — Retrieves relevant document chunks from Qdrant and generates responses using an **LLM** via LangChain.
+- **`query.py`** — Retrieves relevant document chunks from Qdrant and generates responses using an **LLM** via LangChain.
 
 Qdrant is hosted locally, ensuring fast, private, and efficient vector search.
 
 ---
 
-## 🧩 Architecture
+##  Architecture
 ```
     ┌────────────┐
     │  Documents │
