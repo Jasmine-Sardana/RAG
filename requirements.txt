@@ -1,5 +1,7 @@
-langchain
-sentence_transformers
-torch
-pypdf
-qdrant_client
+pydantic>=2.0,<3.0
+langchain==0.2.14
+langchain-community==0.2.11
+langchain-qdrant==0.1.2
+qdrant-client==1.11.3
+sentence-transformers==3.0.1
+pypdf==4.2.0
